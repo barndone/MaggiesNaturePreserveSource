@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1F6D1486-4BCB-7023-336C-A4B78C81F934}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AControl",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule",
+				"UMG",
+				"DeveloperSettings"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
